@@ -13,12 +13,13 @@
 
 import pandas as pd 
 from pandas_profiling import ProfileReport
-data=pd.read_csv('~/Documents/Jup_notebooks/Clean_Dataset.csv')
+data=pd.read_csv('~/Documents/Python_files/Clean_Dataset.csv')
 # print(data)
-#print(data.head())
+# print(data.head())
 # data.info()
 # data.describe()
 # data.isnull()
-profile=ProfileReport(data,title="Airline data")
+profile=ProfileReport(data,title="Airline data", html={'style': {'full_width': True}})
+profile
 profile.to_file("Airline analysis.html")
-print("feeling excited - wow! I nailed it, new thing")
+print("feeling excited - wow! I nailed it, let's do something new")
