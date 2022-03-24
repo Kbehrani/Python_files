@@ -150,9 +150,15 @@ total=0
 
 #while loop
 
-while True:
-    number=float(input("Enter a number:"))
+# while True:
+#     number=float(input("Enter a number:"))
+#     if number<0:
+#         break
+#     print("You entered:", number)
+
+for i in range(1,5):
+    number=float(input("Enter a number: "))
     if number<0:
-        break
-    print("You entered:", number)
+        continue
+    print(number)
    
