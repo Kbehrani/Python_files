@@ -156,9 +156,15 @@ total=0
 #         break
 #     print("You entered:", number)
 
-for i in range(1,5):
-    number=float(input("Enter a number: "))
-    if number<0:
+# for i in range(1,5):
+#     number=float(input("Enter a number: "))
+#     if number<0:
+#         continue
+#     print(number)
+
+languages = ["Python", "Java", "Swift", "C", "C++"]
+
+for language in languages:
+    if language == "Swift" or language == "C++":
         continue
-    print(number)
-   
+    print(language)
