@@ -11,9 +11,9 @@
 # print(x)
 # print(y)
 
-import pandas as pd 
-from pandas_profiling import ProfileReport
-data=pd.read_csv('~/Documents/Python_files/Clean_Dataset.csv')
+# import pandas as pd 
+# from pandas_profiling import ProfileReport
+# data=pd.read_csv('~/Documents/Python_files/Clean_Dataset.csv')
 # print(data)
 # print(data.head())
 # data.info()
@@ -162,9 +162,41 @@ total=0
 #         continue
 #     print(number)
 
-languages = ["Python", "Java", "Swift", "C", "C++"]
+# languages = ["Python", "Java", "Swift", "C", "C++"]
 
-for language in languages:
-    if language == "Swift" or language == "C++":
-        continue
-    print(language)
+# for language in languages:
+#     if language == "Swift" or language == "C++":
+#         continue
+#     print(language)
+
+#pass statement - pass statement does nothing, its just a placeholder for something that you'll do in future
+# counter=1
+# max = 10
+# if counter <= max:
+#     counter += 1
+# else:
+#     pass
+
+# functions - group of related statments that perform a specific task
+#functions begin with keyword def
+
+# def greet(name):
+#     print("Hello",name)
+#     print("How do you do", name)
+# greet("Jack")#Jack is an argument
+# def add_numbers (n1,n2):
+#     result=n1+n2
+#     print("The sum is",result)
+# n1=5.4
+# n2=6.1
+
+# add_numbers(n1,n2)
+
+# when we encouter return the programme is terminated 
+#built in functions
+
+marks=[55,64,56,78]
+length=len(marks)
+print("Length is", length)
+marks_sum=sum(marks)
+print("The total marks is", marks_sum)
