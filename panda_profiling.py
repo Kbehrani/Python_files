@@ -118,6 +118,9 @@
 #     result=count+1
 #     print(result)
 
+from html.entities import name2codepoint
+
+
 total=0
 
 #looping from 1 to 100
@@ -195,8 +198,50 @@ total=0
 # when we encouter return the programme is terminated 
 #built in functions
 
-marks=[55,64,56,78]
-length=len(marks)
-print("Length is", length)
-marks_sum=sum(marks)
-print("The total marks is", marks_sum)
+# def find_average_marks(marks):
+#     sum_of_marks = sum(marks)
+#     number_of_subjects = len(marks)
+    
+#     average_marks = sum_of_marks/number_of_subjects
+    
+#     return average_marks
+
+# def compute_grade(average_marks):
+#     if average_marks >= 80.0:
+#         grade = 'A'
+#     elif average_marks >= 60:
+#         grade = 'B'
+#     elif average_marks >= 50:
+#         grade = 'C'
+#     else:
+#         grade = 'F'
+    
+#     return grade
+      
+# marks = [55, 64, 75, 80, 65]
+# average_marks = find_average_marks(marks)
+# grade =compute_grade(average_marks)
+# print("Your average marks is", average_marks)
+# print("Your grade is", grade)
+#         # length=len(marks)
+# # print("Length is", length)
+# # marks_sum=sum(marks)
+# # print("The total marks is", marks_sum)
+
+
+#multiple two numbers
+
+# def add_numbers(num1,num2):
+#     return num1+num2
+
+# def multiply_numbers(num1,num2):
+#     return num1*num2
+
+# num1=5
+# num2=10
+
+# sum_result=add_numbers(num1,num2)
+# product_numbers=multiply_numbers(num1,num2)
+
+# print("The addition is", sum_result)
+# print("The multiplication is", product_numbers)
